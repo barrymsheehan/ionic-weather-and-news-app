@@ -1,0 +1,35 @@
+.home, .settings {
+    background: rgb(0,201,213);
+    background: linear-gradient(135deg, rgba(0,201,213,1) 0%, rgba(0,147,206,1) 17%, rgba(113,250,202,1) 100%);
+    color: color($colors, light);
+    margin-top: 20px;
+}
+
+.home a, .home a:link {
+    text-decoration: none;
+    color: color($colors, dark);
+}
+
+.weatherContainer {
+    text-align: center;
+}
+
+.weatherHeading {
+    margin-top: 0;
+}
+
+.item-md p {
+    font-size: 1.8rem;
+}
+
+.weatherItemTitle {
+    font-weight: bold;
+}
+
+.newsItemList ion-thumbnail {
+    margin-bottom: 20px;
+}
+
+.newsItemList p {
+    font-size: 1.8rem;
+}

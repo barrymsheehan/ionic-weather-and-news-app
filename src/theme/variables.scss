@@ -1,0 +1,27 @@
+$font-path: "../assets/fonts";
+$app-direction: ltr;
+
+@import "ionic.globals";
+
+// Named Color Variables
+
+$colors: (
+  primary:    #574AB1,
+  secondary:  #035aa6,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222
+);
+
+$toolbar-md-background: color($colors, secondary);
+
+
+$item-md-body-text-font-size: 1.4rem;
+$item-md-divider-background: color($colors, light);
+
+@import "ionic.theme.default";
+
+@import "ionic.ionicons";
+
+@import "roboto";
+@import "noto-sans";
